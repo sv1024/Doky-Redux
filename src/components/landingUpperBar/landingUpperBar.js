@@ -40,28 +40,7 @@ function LandingUpperBar() {
                                 </h1>
                         </Link>
                         <div className="ml-auto d-none d-sm-block form-inline">
-                            <input
-                                type="text"
-                                name="email"
-                                value={email}
-                                onChange={e => setEmail(e.target.value)}
-                                className="form-control mr-2 d-none d-md-inline"
-                                placeholder="Correo"
-                                aria-label="Correo"
-                                aria-describedby="basic-addon1" />
-                            <input
-                                type="password"
-                                name="password"
-                                value={password}
-                                onChange={e => setPassword(e.target.value)}
-                                className="form-control mr-2 d-none d-md-inline"
-                                placeholder="Contraseña"
-                                aria-label="Contraseña"
-                                aria-describedby="basic-addon1" />
-                            <button type="button" className="btn btn-outline-light mr-xl-2 mr-1 font-weight-bolder d-none d-md-inline" onClick={() => login(email, password, history)}>
-                                Ingresar
-                            </button>
-                            <Link to={LINK_INGRESAR} type="button" className="btn btn-outline-light mr-1 font-weight-bolder d-md-none">
+                            <Link to={LINK_INGRESAR} type="button" className="btn btn-outline-light mr-2 font-weight-bolder">
                                 Ingresar
                             </Link>
                             <Link to={LINK_REGISTRARSE} type="button" className="btn btn-outline-light mr-2 font-weight-bolder">
