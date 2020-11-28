@@ -53,7 +53,7 @@ function Menu3({setIdPage,email,password,role,setRole,setEmail,setPassword}) {
                                 <input 
                                     type="password" 
                                     name="regpassword" 
-                                    value={password} 
+                                    value={password}
                                     onChange={e=>setPassword(e.target.value)} 
                                     className="form-control" 
                                     placeholder="Contraseña" 

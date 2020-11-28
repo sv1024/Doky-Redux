@@ -78,14 +78,11 @@ function Menu4({ setIdPage, nombres, apellidos, fechaDeNacimiento, email, passwo
                         <div className='col-12'>
                             <p className="MediumTextFont TextDarkMainColor">Inicio Sesión</p>
                         </div>
-                        <div className='col-6'>
+                        <div className='col-12'>
                             <p className="ultraSmallTextFont TextAltMainColor userparamtext">Correo:</p>
                             <p className="ultraSmallTextFont">{email}</p>
                         </div>
-                        <div className='col-6'>
-                            <p className="ultraSmallTextFont TextAltMainColor userparamtext">Contraseña:</p>
-                            <p className="ultraSmallTextFont">{password}</p>
-                        </div>
+
                         <div className='col-12'>
                             <p className="ultraSmallTextFont TextAltMainColor userparamtext">Rol:</p>
                             <p className="ultraSmallTextFont">{role}</p>
