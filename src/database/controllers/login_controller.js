@@ -29,6 +29,7 @@ export class LoginController {
             console.log('Email or password invalid');
             return false;
         }
+    
 
         // If the previous check was satisfactory, we will continue.
         //
@@ -52,6 +53,11 @@ export class LoginController {
         // I will use the same code for verifying the types
         if (!this.checkType.isAString(email) || !this.checkType.isAString(password)) {
             console.log('Email or password invalid');
+            return false;
+        }
+
+        if(password.length<=8){
+            console.log('Password must be at least 8 characters')
             return false;
         }
 

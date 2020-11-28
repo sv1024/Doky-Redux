@@ -39,6 +39,8 @@ export class FirebaseAuthRepository {
         // Here I will use the firebase SDK method too.
         // As always, async methods are promises, so I will return them.
         return this.firebaseInstance.auth().createUserWithEmailAndPassword(email, password);
+        
+        
     }
 
     // This will be the method for log out the current session.
