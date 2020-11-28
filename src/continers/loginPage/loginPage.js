@@ -32,7 +32,7 @@ function LoginPage() {
                 const loginController = new LoginController()
                 await loginController.signInWithEmailAndPassword(email, password);
                 history.push(LINK_HOME)
-                alert("Not Verified, try again")
+
             }
             else{
                 alert("Not Verified, try again")
