@@ -108,7 +108,7 @@ function LoginPage() {
                                     </div>
                                     <div className="input-group mb-3 loginandregisterinput">
                                         <Recaptcha
-                                            sitekey="6LfWFPEZAAAAANiOiWXNHgLDobcxwjdPpZvHSsbj"
+                                            sitekey="6LdLovEZAAAAAE_4JljBvSOhini7wuTozzyGvuyN"
                                             render = "explicit"
                                             onloadCallback = {recaptchaLoaded}
                                             verifyCallback={verifyCallback}
